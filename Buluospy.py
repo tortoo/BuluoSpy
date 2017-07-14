@@ -43,5 +43,5 @@ def getheaders(bid='22371'):
     return headers
 
 # 获取实际发帖量
-def getpostnum(bid='22371')
+def getpostnum(bid='22371'):
     pass

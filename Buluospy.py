@@ -19,7 +19,7 @@ def random_string(randomlength=8,zero=False):
     random = Random()
 
     if zero:
-        randomlength--
+        randomlength-=1
         str = chars[random.randint(1,length)]
 
     for i in range(randomlength):
